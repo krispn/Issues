@@ -5,7 +5,6 @@ labels: ["bug"]
 projects: ["krispn/The JDE Agent"]
 assignees:
   - krispn
-type: bug
 body:
   - type: markdown
     attributes:
