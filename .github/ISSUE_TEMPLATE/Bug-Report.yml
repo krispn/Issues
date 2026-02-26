@@ -1,0 +1,70 @@
+name: Bug Report
+description: File a bug report.
+title: "[Bug]: "
+labels: ["bug"]
+projects: ["krispn/The JDE Agent"]
+assignees:
+  - octocat
+type: bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: Name
+    attributes:
+      label: Name
+      description: Your name so that I can contact you in case I need more details
+      placeholder: ex. John Doe
+    validations:
+      required: false
+  - type: dropdown
+    id: persona
+    attributes:
+      label: Persona
+      description: What persona did you select?
+      options:
+        - End User
+        - Developer
+        - CNC Admin
+        - IT Manager
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: What was the prompt?
+      description: Mention the prompt given to the bot. 
+      placeholder: Clear cache on the PY JAS server
+      value: "Clear cache on the PY JAS server"
+    validations:
+      required: true
+  - type: textarea
+    id: expected_response
+    attributes:
+      label: Expected Resoponse
+      description: What was the response you expected from the agent? 
+      placeholder: Cache cleared
+      value: "Cache cleared"
+    validations:
+      required: true
+  - type: textarea
+    id: actual_response
+    attributes:
+      label: Actual Resoponse
+      description: What was the actual response you expected from the agent? 
+      placeholder: I could not understand the prompt
+      value: "I could not understand the prompt"
+    validations:
+      required: true      
+   - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: Anything else you would like to add?
+      placeholder: The issue happens in other personas too
+      value: "The issue happens in other personas too"
+    validations:
+      required: true
