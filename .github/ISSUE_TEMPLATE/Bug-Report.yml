@@ -36,7 +36,7 @@ body:
     attributes:
       label: What was the prompt?
       description: Mention the prompt given to the bot.
-      placeholder: Clear cache on the PY JAS server
+      placeholder: ex. Clear cache on the PY JAS server
       value: Clear cache on the PY JAS server
     validations:
       required: true
@@ -45,7 +45,7 @@ body:
     attributes:
       label: Expected Resoponse
       description: What was the response you expected from the agent?
-      placeholder: Cache cleared
+      placeholder: ex. Cache cleared
       value: Cache cleared
     validations:
       required: true
@@ -54,7 +54,7 @@ body:
     attributes:
       label: Actual Resoponse
       description: What was the actual response you expected from the agent?
-      placeholder: I could not understand the prompt
+      placeholder: ex. I could not understand the prompt
       value: I could not understand the prompt
     validations:
       required: true
@@ -63,7 +63,7 @@ body:
     attributes:
       label: Additional Context
       description: Anything else you would like to add?
-      placeholder: The issue happens in other personas too
+      placeholder: ex. The issue happens in other personas too
       value: The issue happens in other personas too
     validations:
       required: true
