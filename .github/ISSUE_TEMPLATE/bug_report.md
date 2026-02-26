@@ -10,6 +10,13 @@ assignees: ''
 **Describe the bug**
 A clear and concise description of what the bug is.
 
+**Persona**
+What was the persona that was used?
+- [ ] End User
+- [ ] Developer
+- [ ] CNC Admin
+- [ ] IT Manager
+
 **The Prompt**
 What was the prompt given to the bot
 
