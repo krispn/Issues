@@ -1,12 +1,10 @@
 name: Bug Report
 description: File a bug report.
 title: "[Bug]: "
-labels:
-  - bug
-projects:
-  - krispn/The JDE Agent
+labels: ["bug"]
+projects: ["krispn/The JDE Agent"]
 assignees:
-  - octocat
+  - krispn
 type: bug
 body:
   - type: markdown
